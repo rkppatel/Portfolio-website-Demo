@@ -1,0 +1,385 @@
+/* Add your styles here */
+:root{
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+*{
+  font-family: var(--bs-font-monospace);
+}
+body{
+    background-color: black;
+}
+
+/* Add your styles here */
+  
+#home {
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .hero {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f5f5f5;
+  }
+  
+/* Add your styles here */
+
+#about {
+   
+    background-size: cover;
+    background-position: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-content {
+    margin-top: 40px;
+  }
+  
+  .about-content img {
+    border-radius: 100%;
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+
+/* Add your styles here */
+
+#portfolio {
+    background-color: #070000;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+/* Add your styles here */
+
+#services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .service {
+    margin-top: 40px;
+  }
+  
+  .service img {
+    width: 50%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .service h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .service p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  /* Add your styles here */
+
+#testimonials {
+    background-color: #000000;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial blockquote {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial cite {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+  }
+ /* Add your styles here */
+
+#blog {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .blog-post {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post h3 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  .blog-post p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f5f5f5;
+  }
+/* Add your styles here */
+
+#contact {
+    background-color: #000000;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .contact-form {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form textarea {
+    height: 120px;
+  }
+  
+  .contact-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #555555;
+  }
+
+  /* Add your styles here */
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .social-icons {
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .call-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .call-button:hover {
+    background-color: #555555;
+  }
+  #icons {
+    background-color: #000000;
+    color: white;
+    /* padding: 80px 0; */
+    text-align: center;
+  }
+
+  .mx-2{
+    padding: 20px;
+    
+ 
+  }
+  
+/* Add your styles here */
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  /* #home {
+    background-size: contain;
+    background-repeat: no-repeat;
+  } */
+  #home .hero h1 {
+    font-size: 24px;
+  }
+
+  #home .hero p {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .about-content img {
+    max-width: 80px;
+  }
+
+  .service img {
+    width: 80%;
+  }
+
+  .testimonial img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .blog-post h3 {
+    font-size: 20px;
+  }
+
+  .blog-post p {
+    font-size: 14px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 14px;
+  }
+
+  footer .social-icons a {
+    font-size: 20px;
+  }
+}
+
+/* Add your styles here */
